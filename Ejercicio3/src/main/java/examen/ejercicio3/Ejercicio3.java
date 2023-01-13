@@ -12,6 +12,11 @@ package examen.ejercicio3;
 public class Ejercicio3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String frase="Me llamo Jose David Casas Gomez";
+        int conEspacios=frase.length();
+        System.out.println("Longitud de frase con espacios: "+conEspacios);
+        int sinEspacios=frase.replace(" ","").length();
+        System.out.println("La frase tiene: "+sinEspacios+" letras");
+        
     }
 }
